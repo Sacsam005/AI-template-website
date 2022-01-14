@@ -5,22 +5,22 @@ import './brand.css';
 const Brand = () => (
   <div className="gpt3__brand section__padding">
     <div>
-      <img src={logo1} />
+      <img src={logo1} alt="Brand logos" />
     </div>
     <div>
-      <img src={logo2} />
+      <img src={logo2} alt="Brand logos" />
     </div>
     <div>
-      <img src={logo3} />
+      <img src={logo3} alt="Brand logos" />
     </div>
     <div>
-      <img src={logo4} />
+      <img src={logo4} alt="Brand logos" />
     </div>
     <div>
-      <img src={logo5} />
+      <img src={logo5} alt="Brand logos" />
     </div>
     <div>
-      <img src={logo6} />
+      <img src={logo6} alt="Brand logos" />
     </div>
   </div>
 );

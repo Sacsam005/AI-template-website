@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
-          <i class="fab fa-servicestack fa-3x" style={{ color: "cyan" }}></i>
+          <i className="fab fa-servicestack fa-3x" style={{ color: "cyan" }}></i>
         </div>
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
@@ -25,8 +25,8 @@ const Navbar = () => {
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu
-          ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
-          : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />}
+          ? <RiCloseLine color="#3A6073" size={27} onClick={() => setToggleMenu(false)} />
+          : <RiMenu3Line color="#3A6073" size={27} onClick={() => setToggleMenu(true)} />}
         {toggleMenu && (
           <div className="gpt3__navbar-menu_container scale-up-center">
             <div className="gpt3__navbar-menu_container-links">

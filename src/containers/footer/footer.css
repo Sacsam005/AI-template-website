@@ -31,12 +31,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   padding: 1rem;
   border: 1px solid #fff;
   text-align: center;
-
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
   cursor: pointer;
 }
 
@@ -115,7 +113,7 @@
 }
 
 .gpt3__footer-copyright p {
-  font-size: 12px;
+  font-size: 1rem;
   font-family: var(--font-family);
   line-height: 15px;
   color: #333;

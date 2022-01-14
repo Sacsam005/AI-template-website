@@ -14,7 +14,7 @@ const Footer = () => (
 
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
-        <i class="fab fa-servicestack fa-3x" style={{ color: "cyan" }}></i>
+        <i className="fab fa-servicestack fa-3x" style={{ color: "cyan" }}></i>
 
         <p>AI research center, <br /> All Rights Reserved</p>
       </div>

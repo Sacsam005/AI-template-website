@@ -6,13 +6,8 @@
   --gradient-text: linear-gradient(89.97deg, #19092b 1.84%, #752900 102.67%);
   --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
 
-  --color-bg: background: #1a2a6c;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  
-
-/* Chrome 10-25, Safari 5.1-6 */
-
-background: linear-gradient(to right, #fdbb2d, #b21f1f, #4f5e99); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  --color-bg: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  
+/* background: linear-gradient(to right, #fdbb2d, #b21f1f, #4f5e99);  */
   --color-footer: rgb(202, 200, 200);
   --color-blog: #03274b;
   --color-text: rgb(34, 23, 23);
