@@ -1,18 +1,19 @@
 .gpt3__whatgpt3 {
   display: flex;
   flex-direction: column;
-
+  border-bottom-left-radius: 2rem;
+  border-top-right-radius: 2rem;
   padding: 2rem;
-  background: var(--color-bg);
+  background: var(--gradient-bar);
 
   /* opera 11.10+ */
-  background: var(--color-bg);
+  background: var(--gradient-bar);
 
   /* ie 10+ */
-  background: var(--color-bg);
+  background: var(--gradient-bar);
 
   /* global 92%+ browsers support */
-  background: var(--color-bg);
+  background: var(--gradient-bar);
 
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
